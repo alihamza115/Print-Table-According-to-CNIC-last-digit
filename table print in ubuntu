@@ -6,7 +6,7 @@ int main() {
 	int pid, status;
 	pid = fork();
 	if (pid==0){
-		int num =7;
+		int num =9;
 		for (int i=1; i<=10; i++){
 			printf("%d * %d = %d\n", num,i,num*i);
 		}
@@ -16,7 +16,7 @@ int main() {
 		printf("Parent Process Name is:\n");
 		printf("Ali Hamza \n");
 		printf("CNIC is\n");
-		printf("36502-9177689-7\n");
+		printf("36104-7469197-9\n");
 	}
 	return 0;
 }
